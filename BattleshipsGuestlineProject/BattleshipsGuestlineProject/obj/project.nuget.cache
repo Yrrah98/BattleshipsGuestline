@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ODnwe2M6yw6TAgdh8XsnEll9Xp719OLuIbJlRiZ94lI/4P3OZBKFRp8Cl8sU76UMn/Abo36jKZ3x/4WUlOz2lg==",
+  "dgSpecHash": "g76BiiHLqvxIHx090mNbxqVVFRWjHOPp12nOCs2JYuVSBPYX56bErgM2dvGyO2riZANxbLvCAorfvJuR87HRfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestline\\BattleshipsGuestline.csproj",
+  "projectFilePath": "C:\\Users\\Harry\\source\\repos\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Harry\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
     "C:\\Users\\Harry\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"

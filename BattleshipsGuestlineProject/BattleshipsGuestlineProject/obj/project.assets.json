@@ -180,11 +180,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestline\\BattleshipsGuestline.csproj",
-      "projectName": "BattleshipsGuestline",
-      "projectPath": "C:\\Users\\Harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestline\\BattleshipsGuestline.csproj",
+      "projectUniqueName": "C:\\Users\\Harry\\source\\repos\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject.csproj",
+      "projectName": "BattleshipsGuestlineProject",
+      "projectPath": "C:\\Users\\Harry\\source\\repos\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject.csproj",
       "packagesPath": "C:\\Users\\Harry\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestline\\obj\\",
+      "outputPath": "C:\\Users\\Harry\\source\\repos\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

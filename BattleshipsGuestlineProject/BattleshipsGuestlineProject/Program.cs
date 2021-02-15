@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BattleshipsGuestline
+namespace BattleshipsGuestlineProject
 {
     public static class Program
     {
