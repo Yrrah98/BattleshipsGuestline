@@ -32,15 +32,20 @@ namespace BattleshipsEngineProj.Interfaces
     /// </summary>
     public interface IEntity
     {
-        // PROPERTY: _entityID, contains the entities ID and only allows it to 
+        // PROPERTY: EntityID, contains the entities ID and only allows it to 
         // be set once. 
         // Monogame Framework doesn't use .NET Framework 5.0 yet,
         // so I couldn't use C# 9.0 "init" property accessor
         String EntityID { get; set; }
-
+        // PROPERTY: Position, contains the entities position and only allows it to 
+        // be set once.
         Vector2 Position { get; set; }
-
+        // PROPERTY: Orientation, contains the entities orientation and only allows it to 
+        // be set once.
         CardinalOrientation Orientation { get; set; }
+        // PROPERTY: ShipLength, contains the entities length and only allows it to 
+        // be set once.
+        int ShipLength { get; set; }
         /// <summary>
         /// METHOD: InitialiseEntity, a method which is used to pass initialisation data into the entity
         /// e.g. name and position

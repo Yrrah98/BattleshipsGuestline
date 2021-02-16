@@ -21,7 +21,7 @@ namespace BattleshipsEngineProj.BSEntities
         /// </summary>
         public Destroyer() 
         {
-            
+            ShipLength = 4;
         }
     }
 }

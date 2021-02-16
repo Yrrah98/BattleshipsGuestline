@@ -19,7 +19,7 @@ namespace BattleshipsEngineProj.BSEntities
         /// </summary>
         public Battleship() 
         {
-
+            ShipLength = 5;
         }
     }
 }

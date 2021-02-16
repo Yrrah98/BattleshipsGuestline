@@ -1,17 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject.csproj": {}
+    "C:\\users\\harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject.csproj": {
+    "C:\\users\\harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestlineProject\\BattleshipsEngineProj\\BattleshipsEngineProj.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\users\\harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestlineProject\\BattleshipsEngineProj\\BattleshipsEngineProj.csproj",
+        "projectName": "BattleshipsEngineProj",
+        "projectPath": "C:\\users\\harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestlineProject\\BattleshipsEngineProj\\BattleshipsEngineProj.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\users\\harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject.csproj",
+        "projectUniqueName": "C:\\users\\harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject.csproj",
         "projectName": "BattleshipsGuestlineProject",
-        "projectPath": "C:\\Users\\Harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject.csproj",
+        "projectPath": "C:\\users\\harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject.csproj",
         "packagesPath": "C:\\Users\\Harry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject\\obj\\",
+        "outputPath": "C:\\users\\harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestlineProject\\BattleshipsGuestlineProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -32,7 +42,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\users\\harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestlineProject\\BattleshipsEngineProj\\BattleshipsEngineProj.csproj": {
+                "projectPath": "C:\\users\\harry\\source\\repos\\BattleshipsGuestline\\BattleshipsGuestlineProject\\BattleshipsEngineProj\\BattleshipsEngineProj.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

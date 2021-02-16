@@ -29,7 +29,7 @@ namespace BattleshipsEngineProj.BSEntities
         // VAIRABLE of type CardinalOrientation called _orientation, stores the orientation of the vessel
         protected CardinalOrientation _orientation;
         // VARIABLE of type bool, allows a the orientation of the vessel to be set only once. 
-        protected bool _orientationSet; 
+        protected bool _orientationSet;
         // PROPERTY of type CardinalOrientation called Orientation returns and sets _orientation. Only
         // set _orientation value if _orientationSet returns false;
         public CardinalOrientation Orientation
@@ -37,13 +37,19 @@ namespace BattleshipsEngineProj.BSEntities
             get { return _orientation; }
             set { if (_orientationSet == false) { _orientation = value; _orientationSet = true; } }
         }
+        // VARIABLE of type int called _shipLength, stores the length of the ship, default value is 0
+        protected int _shipLength;
+        // PROPERTY ShipLength allows the ships length to be accessed and altered only once if the 
+        // value of the _shipLength variable is 0
+        public int ShipLength { get { return _shipLength; } set { if (_shipLength == 0) _shipLength = value; } }
+
 
         /// <summary>
         /// CONSTRUCTOR for Base battleship entity classes
         /// </summary>
         public BSEntity()
         {
-            // INITIALISE to false, this will
+            // INITIALISE to false, this will allow the orientation to be set once
             _orientationSet = false;
         }
 
