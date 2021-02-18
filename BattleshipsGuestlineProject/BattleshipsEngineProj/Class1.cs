@@ -1,4 +1,5 @@
 ﻿using BattleshipsEngineProj.BSEntities;
+using BattleshipsEngineProj.Factories;
 using BattleshipsEngineProj.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -13,11 +14,13 @@ namespace BattleshipsEngineProj
 
         public Class1()
         {
-            IEntity entity = new BSEntity();
 
-            entity.EntityID = "DestroyerP1";
+            IEntityFactory factory = new BSEntityFactory();
 
-            entity.Orientation = CardinalOrientation.North;
+
+            IEntity entity = factory.CreateEntity<Battleship>();
+
+            
         }
     }
 }

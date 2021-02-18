@@ -24,6 +24,8 @@ namespace BattleshipsEngineProj
 
         // VARIABLE to keep track of the number of ships which have been sunk
         private int _sunkShipsCount;
+        // VARIABLE to keep count the number of ships which the player had at the start of the game
+        private int _totalShipCount;
         /// <summary>
         /// PROPERTY: SunkShipsCount
         /// </summary>
@@ -34,8 +36,10 @@ namespace BattleshipsEngineProj
         /// </summary>
         public Player() 
         {
-            // SET the value of ships to sink to the number of active ships
-            // the player has
+            // INITIALISE variables
+            _activeShips = new List<IEntity>();
+
+            _totalShipCount = _activeShips.Count;
         }
 
 

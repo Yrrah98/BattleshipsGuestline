@@ -14,7 +14,7 @@ using Microsoft.Xna.Framework;
 /// </summary>
 namespace BattleshipsEngineProj.BSEntities
 {
-    public class BSEntity : IEntity
+    public abstract class BSEntity : IEntity
     {
         // VARIABLE of type String, contains the entities ID, set to protected and called _entityID
         protected String _entityID;
