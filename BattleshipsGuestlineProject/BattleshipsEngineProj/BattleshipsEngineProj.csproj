@@ -47,8 +47,10 @@
     <Compile Include="BSEntities\Destroyer.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Factories\BSEntityFactory.cs" />
+    <Compile Include="GameWorld\GameWorld.cs" />
     <Compile Include="Interfaces\IEntityFactory.cs" />
     <Compile Include="Interfaces\IEntity.cs" />
+    <Compile Include="Interfaces\IGameWorld.cs" />
     <Compile Include="Interfaces\IPlayer.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
