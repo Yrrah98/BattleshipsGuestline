@@ -46,6 +46,8 @@
     <Compile Include="BSEntities\BSEntity.cs" />
     <Compile Include="BSEntities\Destroyer.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Factories\BSEntityFactory.cs" />
+    <Compile Include="Interfaces\IEntityFactory.cs" />
     <Compile Include="Interfaces\IEntity.cs" />
     <Compile Include="Interfaces\IPlayer.cs" />
     <Compile Include="Player.cs" />
