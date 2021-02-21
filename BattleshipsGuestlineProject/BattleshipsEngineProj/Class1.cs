@@ -15,11 +15,6 @@ namespace BattleshipsEngineProj
         public Class1()
         {
 
-            IEntityFactory factory = new BSEntityFactory();
-
-
-            IEntity entity = factory.CreateEntity<Battleship>();
-
             
         }
     }

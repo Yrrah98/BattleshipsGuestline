@@ -10,6 +10,8 @@ namespace BattleshipsEngineProj.GameWorld
     public class GameWorld : IGameWorld
     {
 
+
+
         /// <summary>
         /// CONSTRUCTOR for the GameWorld Class
         /// </summary>
@@ -50,8 +52,20 @@ namespace BattleshipsEngineProj.GameWorld
 
         private int[,] MakeGrid() 
         {
+            int[,] grid = new int[10,10];
 
-            return new int[1,1];
+            // FOR LOOP for the X acis
+            for (int x = 0; x < 10; x++)
+            {
+                // FOR LOOP for the Y axis 
+                for (int y = 0; y < 10; y++)
+                {
+                    // 
+
+                }
+            }
+
+            return grid;
         }
     }
 }
