@@ -48,7 +48,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Factories\BSEntityFactory.cs" />
     <Compile Include="GameWorld\GameWorld.cs" />
-    <Compile Include="GameWorld\Tile\Tile.cs" />
+    <Compile Include="GameWorld\Grid\Tile.cs" />
     <Compile Include="Interfaces\IEntityFactory.cs" />
     <Compile Include="Interfaces\IEntity.cs" />
     <Compile Include="Interfaces\IGameWorld.cs" />
