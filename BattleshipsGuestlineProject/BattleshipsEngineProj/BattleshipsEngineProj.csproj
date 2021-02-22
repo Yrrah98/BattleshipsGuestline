@@ -48,10 +48,12 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Factories\BSEntityFactory.cs" />
     <Compile Include="GameWorld\GameWorld.cs" />
+    <Compile Include="GameWorld\Grid\Grid.cs" />
     <Compile Include="GameWorld\Grid\Tile.cs" />
     <Compile Include="Interfaces\IEntityFactory.cs" />
     <Compile Include="Interfaces\IEntity.cs" />
     <Compile Include="Interfaces\IGameWorld.cs" />
+    <Compile Include="Interfaces\IGrid.cs" />
     <Compile Include="Interfaces\IPlayer.cs" />
     <Compile Include="Interfaces\ITile.cs" />
     <Compile Include="Player.cs" />
