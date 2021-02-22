@@ -17,6 +17,7 @@ namespace BattleshipsEngineProj.Interfaces
 {
     public interface ITile
     {
+
         /// <summary>
         /// PROPERTY which will setup a flag to say whether the 
         /// spot has been fired at or not TRUE = Fired at
