@@ -46,6 +46,19 @@ namespace BattleshipsGuestlineProject
 
             // TODO: Add your drawing code here
 
+            Texture2D tileTexture = Content.Load<Texture2D>("Player");
+
+            _spriteBatch.Begin();
+
+            for (int i = 0; i < 10; ++i)
+            {
+                for (int j = 0; j < 10; ++j)
+                {
+                    _spriteBatch.Draw(tileTexture, new Rectangle(i * 32, j * 32, 30, 30), Color.White);
+                }
+            }
+            _spriteBatch.End();
+
             base.Draw(gameTime);
         }
     }
