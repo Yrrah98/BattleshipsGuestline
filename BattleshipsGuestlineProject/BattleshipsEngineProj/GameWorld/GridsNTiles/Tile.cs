@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 /// VERSION: v0.1
 /// PURPOSE: This is a single tile on the board of the battleships game 
 /// </summary>
-namespace BattleshipsEngineProj.GameWorld.Grid
+namespace BattleshipsEngineProj.GameWorld.GridsNTiles
 {
     public class Tile : ITile
     {
@@ -50,6 +50,8 @@ namespace BattleshipsEngineProj.GameWorld.Grid
         /// </summary>
         public void ShootTile()
         {
+            
+
             // PSEUDO-CODE:
             // Whether it is a hit or miss, change the FiredUpon flag to true.
             FiredUpon = true;
